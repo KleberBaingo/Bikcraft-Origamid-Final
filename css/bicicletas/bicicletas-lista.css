@@ -18,6 +18,10 @@
   -webkit-overflow-scrolling: touch;
 }
 
+#bicicleta .bicicletas-lista ul {
+  padding: 0px 0px 20px 0px;
+}
+
 .bicicletas-lista li {
   flex: 1;
   min-width: 280px;
@@ -46,7 +50,7 @@
 }
 
 /* consegui fazer funcionar o hover no li, vereificar pq nao está funcionando no a:hover h3:before*/
-.bicicletas-lista li:hover h3::before {
+.bicicletas-lista a:hover h3:before {
   width: 24px;
 }
 
