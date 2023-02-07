@@ -8,6 +8,7 @@
 
 /* utilidades (botoes) */
 @import "./utilidades/componentes.css";
+@import "./utilidades/formulario.css";
 
 /*pagina home*/
 @import "./home/introducao.css";
@@ -28,5 +29,9 @@
 @import "./seguros/vantagens.css";
 @import "./seguros/perguntas.css";
 
+/*pagina Contato*/
+@import "./contato/contato.css";
+@import "./contato/lojas.css";
+
 /*pagina termos*/
-@import ".//termos/termos.css";
+@import "./termos/termos.css";
